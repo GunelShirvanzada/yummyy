@@ -1,0 +1,427 @@
+/* ----------------------------------media 992------------------------------------ */
+@media (max-width:992px){
+    /* header */
+    #responsive_buton{
+        display: block;
+    }
+    .nav{
+        display: none;
+    }
+    .nav_button{
+        display: flex;
+        justify-content: space-between;
+        gap: 30px;
+    }
+    /* home */
+    .food_img {
+        width: 40%;
+    }
+    /* about */
+    
+    /* why */
+    #why .why .why_left {
+        width: 46%;
+        height: 440px;
+    }
+
+    #why .why{
+        align-items: flex-start;
+    }
+
+    .why_right{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    #why .why_right .why_right1:hover {
+        transform: scale(1);
+    }
+    /* stat */
+    #stat {
+        background-attachment: scroll;
+    }
+    #stat .stat_items p {
+        padding: 0;
+    }
+    #stat .stat_items {
+        justify-content: center;
+        gap: 150px;
+    }
+    /* testimonial */
+    #testimonial .testimonials_all {
+        padding: 0 140px;
+        padding-top: 50px;
+        gap: 40px;
+        align-items: flex-start;
+    }
+    /* event */
+    /* chefs */
+    /* book */
+    #book .book .book_form form{
+        padding: 50px 0;
+    }
+    #book .book .book_form{
+        height: 500px;
+    }
+    #book .book .book_img img{
+        height: 500px;
+    }
+    /* contact */
+    #contact .contact_form form .contact_row {
+        display: flex;
+        flex-direction: column;
+    }
+    /* footer */
+}
+/* ----------------------------------media 768------------------------------------ */
+@media (max-width:768px){
+    /* header */
+    #responsive_buton{
+        display: block;
+    }
+    .nav{
+        display: none;
+    }
+    .nav_button{
+        display: flex;
+        justify-content: space-between;
+        gap: 30px;
+    }
+    /* home */
+    #home .container{
+        display: flex;
+        flex-direction: column;
+    }
+    #home #order{
+        order: 1;
+    }
+    .food_img{
+        width: 90%;
+    } 
+    .food_info{
+        text-align: center;
+        padding-top: 20px;
+    }
+    /* about */
+    #about .about_all {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    #about .about_img {
+        width: 100%;
+        min-height: 400px;
+    }
+    #about .about_info{
+        width: 100%;
+    }
+    .about_info_top p, i{
+        font-size: 12px;
+    }
+    /* why */
+    #why .why{
+        display: flex;
+        flex-direction: column;
+    }
+    #why .why .why_left{
+        width: 100%;
+        height: 250px;
+    }
+    #why .why .why_left p {
+        font-size: 13px;    
+    }
+    #why .why .why_left a{
+        font-size: 14px;
+    }
+
+    #why .why_right .why_right1{
+        width: 100%;
+    }
+    #why .why_right .why_right1 i {
+        font-size: 22px;
+        padding: 14px;
+    }
+    #why .why_right .why_right1 h4 {
+        font-size: 18px;
+    }
+    #why .why_right .why_right1 p{
+        font-size: 12px;
+    }
+    /* stat */
+    #stat .stat_items{
+        gap: 100px;
+    }
+    #stat .stat_items p{
+        font-size: 12px;
+    }
+    /* testimonial */
+    #testimonial .testimonials_all{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        gap: 16px;
+    }
+    #testimonial .testimonials_all .testimonials_info{
+        border-left: 2px solid #ce1212;
+    }
+    #testimonial .testimonials_all .testimonials_info p{
+        font-size: 12px;
+    }
+    #testimonial .testimonials_all .testimonials_info h3{
+        font-size: 14px;
+    }
+    #testimonial .testimonials_all .testimonials_info h4{
+        font-size: 12px;
+        padding-bottom: 0;
+    }
+    #testimonial .testimonials_all .testimonials_img {
+        text-align: center;
+        width: 100%;    
+    }
+    #testimonial .testimonials_all .testimonials_img img{
+        width: 50%;
+    }
+    /* event */
+    #event .event_img .event_info {
+        padding-top: 440px;
+    }
+    #event .event_img .event_info h3, #event .event_img .event_info .h4_div {
+        font-size: 20px;
+    }
+    #event .event_img .event_info p{
+        font-size: 13px;
+    }
+    /* chefs */
+    #chefs .chefs {
+        gap: 8px;
+    }
+    #chefs .chefs .chefs_all {
+        height: 500px;
+        width: 48%;
+    }
+    #chefs .chefs .chefs_all .chefs_info h4 {
+        font-size: 16px;
+    }
+    #chefs .chefs .chefs_all .chefs_info h6, #chefs .chefs .chefs_all .chefs_info p {
+        font-size: 12px;
+    }
+    /* book */
+    #book .book {
+        display: flex;
+        flex-direction: column;
+    }
+    #book .book .book_img{
+        width: 100%;
+
+    }
+    #book .book .book_img img {
+        height: 400px;   
+    }
+    #book .book .book_form{
+        padding: 0 10px;
+        height: 440px;
+    }
+    #book .book .book_form form .book_form1 {
+        gap: 10px;
+        padding-bottom: 10px;
+    }
+    #book .book .book_form form input{
+        padding: 8px 10px;
+    }
+    #book .book .book_form form button {
+        font-size: 14px;
+        padding: 12px 50px;
+    }
+    /* contact */
+    #contact{
+        padding: 60px 0;
+    }
+    #contact .contact_info .c_i2 h3{
+        font-size: 16px;
+    }
+    #contact .contact_info .c_i2 p{
+        font-size: 12px;
+    }
+    #contact .contact_info .c_i1 {
+        padding: 12px;
+    }
+    #contact .contact_form form .contact_row {
+        gap: 15px;
+    }
+    #contact .contact_form form {
+        gap: 15px;
+    }
+    #contact .contact_form form button{
+        font-size: 16px;
+        padding: 10px 30px;
+        text-align: center;
+        width: 34%;
+    }
+    /* footer */
+    footer .footer_top {
+        gap: 20px;
+        text-align: start;
+
+    }
+    #f4{
+        padding-right: 10px;
+    }
+    footer .footer_top h4{
+        font-size: 14px;
+    } 
+    footer p{
+        font-size: 12px;
+    }
+}
+/* ----------------------------------media 576------------------------------------ */
+@media (max-width:576px){
+    /* header */
+    #responsive_buton{
+        display: block;
+    }
+    .nav{
+        display: none;
+    }
+    .nav_button{
+        display: flex;
+        justify-content: space-between;
+        gap: 30px;
+    }
+    /* home */
+    #home .container{
+        display: flex;
+        flex-direction: column;
+    }
+    #home #order{
+        order: 1;
+    }
+    .food_img{
+        width: 100%;
+        padding: 50px 0;
+    } 
+    #home .food_info h2{
+        font-size: 40px;
+    }
+    .food_info{
+        text-align: center;
+        padding-top: 20px;
+    }
+    /* about */
+    .about_info_top p,i{
+        font-size: 16px;
+    }
+    /* why */
+    #why .why .why_left p{
+        font-size: 16px;
+    }
+    #why .why .why_left{
+        height: 280px;
+    }
+    #why .why_right .why_right1 i{
+        font-size: 24px;
+        padding: 16px;
+    }
+    #why .why_right .why_right1 h4{
+        font-size: 20px;
+    }
+    #why .why_right .why_right1 p{
+        font-size: 14px;
+    }
+    /* stat */
+    #stat .stat_items{
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
+    }
+    #stat .stat_items p{
+        font-size: 16px;
+    }
+    /* testimonial */
+    #testimonial .testimonials_all .testimonials_info p {
+        font-size: 16px;
+    }
+    #testimonial .testimonials_all .testimonials_info h3 {
+        font-size: 18px;
+    }
+    #testimonial .testimonials_all .testimonials_info h4{
+        font-size: 16px;
+        padding-bottom: 5px;
+    }
+    #testimonial .testimonials_all .testimonials_img img {
+        width: 60%;
+    }
+    /* event */
+    #event .event_img .event_info p{
+        font-size: 15px;
+    }
+    #event .event_img .event_info h3{
+        font-size: 22px;
+    }
+    #event .event_img .event_info h4{
+        font-size: 26px;
+    }
+    /* chefs */
+    /* book */
+    #book .book .book_img img{
+        height: 500px;
+    }
+    #book .book .book_form form .book_form1{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 20px;
+        gap: 20px;
+    }
+    #book .book .book_form{
+        display: inline;
+        padding: 0 20px;
+        height: 630px;
+    }
+    #book .book .book_form form{
+        padding-top: 20px;
+    }
+    #book .book .book_form form textarea{
+        height: 100px;
+        padding-bottom: 20px;
+    }
+    #book .book .book_form form input{
+        padding: 15px ;
+    }
+    /* contact */
+    #contact .c_top{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    #contact .contact_info{
+        width: 100%;
+        padding: 30px ;
+    }
+    #contact .contact_info .c_i2 h3{
+        font-size: 21px;
+    }
+    #contact .contact_info .c_i2 p{
+        font-size: 14px;
+    }
+    #contact .contact_info .c_i1 {
+        padding: 20px;
+    }
+    /* footer */
+    footer .footer_top{
+        display: flex;
+        flex-direction: column;
+        text-align: start;
+        gap: 50px;
+    }
+    footer .footer_top .f_top1 {
+        padding-right: 260px;
+    }
+    #f4{
+        padding-right: 60px;
+    }
+    footer .footer_top h4{
+        font-size: 18px;
+    } 
+    footer p{
+        font-size: 16px;
+    }
+}
