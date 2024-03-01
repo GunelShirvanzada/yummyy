@@ -56,6 +56,9 @@
     }
     /* event */
     /* chefs */
+    #chefs .chefs{
+        gap: 5px;
+    }
     /* book */
     #book .book .book_form form{
         padding: 50px 0;
@@ -193,11 +196,11 @@
     }
     /* chefs */
     #chefs .chefs {
-        gap: 8px;
+        gap: 25px;
     }
     #chefs .chefs .chefs_all {
         height: 500px;
-        width: 48%;
+        width: 46%;
     }
     #chefs .chefs .chefs_all .chefs_info h4 {
         font-size: 16px;
@@ -361,6 +364,17 @@
         font-size: 26px;
     }
     /* chefs */
+    #chefs {
+        padding-bottom: 200px;
+    }
+    #chefs .chefs{
+        display: flex;
+        flex-direction: column;
+        gap: 200px;
+    }
+    #chefs .chefs .chefs_all {
+        width: 100%;
+    }
     /* book */
     #book .book .book_img img{
         height: 500px;

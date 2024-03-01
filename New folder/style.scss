@@ -592,16 +592,21 @@ header{
         .chefs_all{
             transition: all 0.5s ease-in-out;
             position: relative;
+            width: 32%;
             
             &:hover{
                 transform: scale(1.04);
                 visibility: visible;
             }
-            img{
-                width: 100%;
-                border-radius: 5px; 
-                position: relative;
+            .chefs_img{
+                
+                img{
+                    width: 100%;
+                    border-radius: 5px; 
+                    position: relative;
+                }
             }
+            
             .chefs_info{
                 text-align: center;
                 background-color: #fff;

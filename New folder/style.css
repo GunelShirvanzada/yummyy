@@ -553,12 +553,13 @@ header .nav_button a:hover::before {
 #chefs .chefs .chefs_all {
   transition: all 0.5s ease-in-out;
   position: relative;
+  width: 32%;
 }
 #chefs .chefs .chefs_all:hover {
   transform: scale(1.04);
   visibility: visible;
 }
-#chefs .chefs .chefs_all img {
+#chefs .chefs .chefs_all .chefs_img img {
   width: 100%;
   border-radius: 5px;
   position: relative;
